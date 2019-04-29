@@ -1,0 +1,70 @@
+html, body {
+    min-width: 1600px;
+    min-height: 5333px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+.clearfix::after {
+    content: "";
+
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding: 80px 0px 223px;
+
+    min-height: 1015px;
+}
+
+.main-poducts {
+    padding: 96px 15px;
+}
+
+.product-list {
+    float: left;
+    width: 360px;
+    margin-right: 30px;
+    
+    min-height: 500px;
+}
+
+.index-content {
+    padding: 115px 214px;
+
+    min-height: 859px;
+}
+
+.index-content-left {
+    float: left;
+    width: 570px;
+}
+
+.index-content-right {
+    float: right;
+    width: 472px;
+
+    min-height: 859px;
+}
+
+.newsletter {
+    padding: 101px 112px 124px;
+
+    min-height: 492px;
+} 
+
+.main-footer {
+    padding: 75px 308px 0px;
+
+    min-height: 398px;
+}
